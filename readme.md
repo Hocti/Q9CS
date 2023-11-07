@@ -1,6 +1,7 @@
 # 九万輸入法
 
-使用九方 **已過期** 的專利 HK1035043 製作的中文輸入法
+用九方 **已過期** 的專利 HK1035043 製作的中文輸入法
+以numpad輸入2~3鍵即可開始選字
 
 ## 特色
 
@@ -16,6 +17,10 @@
 
 ## 事先準備
 
+.NET framework 4.8 或以上
+
+如windows本身有安裝noto sans會優先使用，否則用回系統字體
+
 由於可能存在法律爭議，碼表暫不公開，所以需要自己輸入字碼等資料\
 玩家需自動修改files/img資料夾內的圖片\
 以及files/dataset.db內，table "mapped_table"中的id 10  ~999 的字碼表\
@@ -24,6 +29,10 @@
 https://sqlitebrowser.org/dl/
 
 **當然如果有朋友已修改完後，直接把成果給你就最好啦**
+
+## 下載
+
+到[Releases](https://github.com/Hocti/Q9CS/releases/latest) 下載。
 
 ## 使用方法
 
@@ -66,11 +75,7 @@ https://www.toptal.com/developers/keycode
 但在不使用numpad模式下，a-z鍵都不會正常運作\
 想打a-z可以先按 f10 暫停輸入法
 
-  
-## 下載
+## Tray
 
-到[Releases](/releases/latest) 下載。
-
-## License
-
-MIT License.
+在window start bar 右下角(tray menu)會找到 "九万" 的icon\
+右鍵點選可選擇 關閉/輸入簡單/切換numpad輸入等
